@@ -148,7 +148,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 	//////[Main loop]/////////
 	while (window.isOpen())
     {
-		//////////[Incomprehensible crap]
+		//////////[reset timer, events]
 		float time = clock.getElapsedTime().asMilliseconds();
 		clock.restart();
 		time = time / 50;
